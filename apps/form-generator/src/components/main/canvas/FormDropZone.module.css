@@ -1,0 +1,26 @@
+.base {
+  padding: 5rem;
+  font-size: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.label {
+  margin: 1rem 0px;
+}
+
+.form_builder {
+  border: 1px dashed rgba(0, 0, 0, 0.4);
+  height: fit-content;
+  min-height: 10dvh;
+  display: grid;
+  border-radius: 1px;
+}
+
+.empty_form {
+  font-size: 1rem;
+  background: rgba(47, 146, 238, 0.4);
+  border-radius: 5px;
+  place-self: center;
+  padding: 0.5rem;
+}
