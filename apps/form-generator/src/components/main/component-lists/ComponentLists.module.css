@@ -2,4 +2,27 @@
   width: 15dvw;
   min-height: 100dvh;
   box-shadow: 3px 8px 5px 2px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.label {
+  padding: 1.5rem 0rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.list {
+  padding: 0.5rem;
+}
+
+.list_item {
+  border: 1px solid rgb(43, 127, 255);
+  border-radius: 3px;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(43, 127, 255);
+  cursor: grab;
 }

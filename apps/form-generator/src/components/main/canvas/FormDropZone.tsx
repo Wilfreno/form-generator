@@ -6,8 +6,17 @@ export default function FormDropZone() {
       <label className={style.label} htmlFor="form-builder">
         Form Builder
       </label>
-      <div id="form-builder" className={style.form_builder}>
-        <div draggable className={style.empty_form}>Drag & Drop Components here</div>
+      <div
+        id="form-builder"
+        className={style.form_builder}
+        onDragOver={(e) => {
+          e.preventDefault()
+          e.dataTransfer.dropEffect = 'move'
+        }}
+      >
+        <div draggable className={style.empty_form}>
+          Drag & Drop Components here
+        </div>
       </div>
     </div>
   )
