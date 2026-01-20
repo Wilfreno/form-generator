@@ -1,6 +1,6 @@
 export default function FormDropZone() {
   return (
-    <div className="p-10 grow grid gap-5">
+    <div className="p-10 grow grid gap-5 h-[200dvh]">
       <label className="text-4xl font-medium text-center " htmlFor="form-builder">
         Form Builder
       </label>
