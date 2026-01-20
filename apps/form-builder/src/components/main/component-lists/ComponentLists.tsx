@@ -107,7 +107,7 @@ export default function ComponentLists() {
           <TooltipTrigger asChild>
             <Link
               href="/test/component-settings-ui"
-              className="bg-secondary rounded-full p-2 mt-auto ml-auto m-5 hover:bg-primary group"
+              className="bg-secondary rounded-full p-2 mt-auto ml-auto m-5 hover:bg-primary/50 group"
             >
               <FlaskConical className="aspect-square h-5 w-auto group-hover:text-secondary" />
             </Link>
